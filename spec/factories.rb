@@ -1,4 +1,8 @@
 FactoryBot.define do
+  factory :book do
+    title { "MyString" }
+  end
+
   # factory :bird do
   #   name { Faker::Name.unique.first_name }
   #   node { node }

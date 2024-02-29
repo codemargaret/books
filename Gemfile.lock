@@ -102,6 +102,10 @@ GEM
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphiql-rails (1.10.0)
+      railties
+    graphql (2.2.11)
+      base64
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -305,6 +309,8 @@ DEPENDENCIES
   debug
   factory_bot_rails
   faker
+  graphiql-rails
+  graphql (~> 2.2)
   importmap-rails
   jbuilder
   pg (~> 1.1)
